@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard format="3.2" id="Flat" section="system" summary="Auf zum Atem!">
+  <box border="0.5" orientation="vertical" spacing="1.5">
+    <box>
+      <panel>
+        <panel filename="/usr/share/onboard/layouts/Small-Alpha.svg" layer="letters">
+          <key action="single-stroke" group="label" id="ESC" keycode="9" label="Escape"/>
+          <key group="default" id="AD01" keycode="24"/>
+          <key group="default" id="AD02" keycode="25"/>
+          <key group="default" id="AD03" keycode="26"/>
+          <key group="default" id="AD04" keycode="27"/>
+          <key group="default" id="AD05" keycode="28"/>
+          <key group="default" id="AD06" keycode="29"/>
+          <key group="default" id="AD07" keycode="30"/>
+          <key group="default" id="AD08" keycode="31"/>
+          <key group="default" id="AD09" keycode="32"/>
+          <key group="default" id="AD10" keycode="33"/>
+          <key action="single-stroke" group="label" id="BKSP" keycode="22" label="Backspace"/>
+          <key action="single-stroke" group="label" id="TAB" keycode="23" label="Tab"/>
+          <key group="default" id="AC01" keycode="38"/>
+          <key group="default" id="AC02" keycode="39"/>
+          <key group="default" id="AC03" keycode="40"/>
+          <key group="default" id="AC04" keycode="41"/>
+          <key group="default" id="AC05" keycode="42"/>
+          <key group="default" id="AC06" keycode="43"/>
+          <key group="default" id="AC07" keycode="44"/>
+          <key group="default" id="AC08" keycode="45"/>
+          <key group="default" id="AC09" keycode="46"/>
+          <key group="default" id="AC10" keysym="0x100002F" label="/"/>
+          <key action="single-stroke" group="label" id="DELE" keycode="119" label="Delete"/>
+          <key action="single-stroke" group="label" id="LFSH" keycode="62" label="Shift" modifier="shift" sticky="true"/>
+          <key group="default" id="AB01" keycode="52"/>
+          <key group="default" id="AB02" keycode="53"/>
+          <key group="default" id="AB03" keycode="54"/>
+          <key group="default" id="AB04" keycode="55"/>
+          <key group="default" id="AB05" keycode="56"/>
+          <key group="default" id="AB06" keycode="57"/>
+          <key group="default" id="AB07" keycode="58"/>
+          <key group="default" id="AB08" keysym="0x100002E" label="."/>
+          <key group="default" id="AB09" keysym="0x100003A" label=":"/>
+          <key action="single-stroke" group="label" id="RTRN" keycode="36" label="Return"/>
+          <key action="single-stroke" group="label" id="LCTL" keycode="37" label="Control" modifier="control" sticky="true"/>
+          <key action="single-stroke" group="label" id="LWIN" keycode="133" label="Super" modifier="mod4" sticky="true"/>
+          <key action="single-stroke" group="label" id="LALT" keycode="64" label="Alt" modifier="mod1" sticky="true"/>
+          <key button="true" group="label" id="layer1" label="..."/>
+          <key group="label" id="SPCE" keycode="65"/>
+          <key action="single-stroke" group="default" id="LEFT" keycode="113" label="←"/>
+          <key action="single-stroke" group="default" id="RGHT" keycode="114" label="→"/>
+          <key action="single-stroke" group="default" id="UP" keycode="111" label="↑"/>
+          <key action="single-stroke" group="default" id="DOWN" keycode="116" label="↓"/>
+        </panel>
+
+        <panel filename="/usr/share/onboard/layouts/Small-Alpha.svg" layer="numbers">
+          <key action="single-stroke" group="label" id="ESC" keycode="9" label="Escape"/>
+          <key group="default" id="AD01" keysym="0x1000031" label="1"/>
+          <key group="default" id="AD02" keysym="0x1000032" label="2"/>
+          <key group="default" id="AD03" keysym="0x1000033" label="3"/>
+          <key group="default" id="AD04" keysym="0x1000034" label="4"/>
+          <key group="default" id="AD05" keysym="0x1000035" label="5"/>
+          <key group="default" id="AD06" keysym="0x1000036" label="6"/>
+          <key group="default" id="AD07" keysym="0x1000037" label="7"/>
+          <key group="default" id="AD08" keysym="0x1000038" label="8"/>
+          <key group="default" id="AD09" keysym="0x1000039" label="9"/>
+          <key group="default" id="AD10" keysym="0x1000030" label="0"/>
+          <key action="single-stroke" group="label" id="BKSP" keycode="22" label="Backspace"/>
+          <key action="single-stroke" group="label" id="PRINT" keycode="107" label="Print" svg_id="TAB"/>jj
+          <key group="default" id="AC01" keysym="0x1000023" label="#"/>
+          <key group="default" id="AC02" keysym="0x1000025" label="%"/>
+          <key group="default" id="AC03" keysym="0x100002B" label="+"/>
+          <key group="default" id="AC04" keysym="0x100002D" label="-"/>
+          <key group="default" id="AC05" keysym="0x100003D" label="="/>
+          <key group="default" id="AC06" keysym="0x100002A" label="*"/>
+          <key group="default" id="AC07" keysym="0x1000022" label="&quot;"/>
+          <key group="default" id="AC08" keysym="0x100005C" label="\"/>
+          <key group="default" id="AC09" keysym="0x1000028" label="("/>
+          <key group="default" id="AC10" keysym="0x1000029" label=")"/>
+          <key action="single-stroke" group="label" id="DELE" keycode="119" label="Delete"/>
+          <key button="true" group="label" id="settings" label="Settings" svg_id="LFSH"/>
+          <key group="default" id="AB01" keysym="0x1000040" label="@"/>
+          <key group="default" id="AB02" keysym="0x1000026" label="&amp;"/>
+          <key group="default" id="AB03" keysym="0x100003F" label="?"/>
+          <key group="default" id="AB04" keysym="0x1000021" label="!"/>
+          <key group="default" id="AB05" keysym="0x1000024" label="$"/>
+          <key group="default" id="AB06" keysym="0x10020AC" label="€"/>
+          <key group="default" id="AB07" keysym="0x100002C" label=","/>
+          <key group="default" id="AB08" keysym="0x100003B" label=";"/>
+          <key group="default" id="AB09" keysym="0x100007C" label="|"/>
+          <key action="single-stroke" group="label" id="RTRN" keycode="36" label="Return"/>
+          <key button="true" group="label" id="hide" label="Exit" svg_id="LCTL"/>
+          <key button="true" group="label" id="move" label="Move" svg_id="LWIN"/>
+          <key button="true" group="label" id="layer2" label="Symbols" svg_id="LALT"/>
+          <key button="true" group="label" id="layer1" label="..."/>
+          <key group="label" id="SPCE" keycode="65"/>
+          <key action="single-stroke" group="label" id="HOME" keycode="110" label="Home" svg_id="LEFT"/>
+          <key action="single-stroke" group="label" id="END" keycode="115" label="End" svg_id="RGHT"/>
+          <key action="single-stroke" group="label" id="PGUP" keycode="112" label="Up" svg_id="UP"/>
+          <key action="single-stroke" group="label" id="PGDN" keycode="117" label="Down" svg_id="DOWN"/>
+        </panel>
+
+        <panel filename="/usr/share/onboard/layouts/Small-Alpha.svg" layer="symbols">
+          <key action="single-stroke" group="label" id="ESC" keycode="9" label="Escape"/>
+          <key group="default" id="AD01" keysym="0x100007B" label="{"/>
+          <key group="default" id="AD02" keysym="0x100007D" label="}"/>
+          <key group="default" id="AD03" keysym="0x100005B" label="["/>
+          <key group="default" id="AD04" keysym="0x100005D" label="]"/>
+          <key group="default" id="F1" keycode="67" label="F1" svg_id="AD05"/>
+          <key group="default" id="F2" keycode="68" label="F2" svg_id="AD06"/>
+          <key group="default" id="F3" keycode="69" label="F3" svg_id="AD07"/>
+          <key group="default" id="F4" keycode="70" label="F4" svg_id="AD08"/>
+          <key group="default" id="F5" keycode="71" label="F5" svg_id="AD09"/>
+          <key group="default" id="F6" keycode="72" label="F6" svg_id="AD10"/>
+          <key action="single-stroke" group="label" id="BKSP" keycode="22" label="Backspace"/>
+          <key action="single-stroke" group="label" id="PRINT" keycode="107" label="Print" svg_id="TAB"/>
+          <key group="default" id="AC01" keysym="0x100005F" label="_"/>
+          <key group="default" id="AC02" keysym="0x100005E" label="^"/>
+          <key group="default" id="AC03" keysym="0x100003C" label="&lt;"/>
+          <key group="default" id="AC04" keysym="0x100003E" label="&gt;"/>
+          <key group="default" id="F7" keycode="73" label="F7" svg_id="AC05"/>
+          <key group="default" id="F8" keycode="74" label="F8" svg_id="AC06"/>
+          <key group="default" id="F9" keycode="75" label="F9" svg_id="AC07"/>
+          <key group="default" id="F10" keycode="76" label="F10" svg_id="AC08"/>
+          <key group="default" id="F11" keycode="95" label="F11" svg_id="AC09"/>
+          <key group="default" id="F12" keycode="96" label="F12" svg_id="AC10"/>
+          <key action="single-stroke" group="label" id="DELE" keycode="119" label="Delete"/>
+          <key button="true" group="label" id="settings" label="Settings" svg_id="LFSH"/>
+          <key group="default" id="AB01" keysym="0x1000027" label="'"/>
+          <key group="default" id="AB02" keysym="0x1000060" label="`"/>
+          <key group="default" id="AB03" keysym="0x100007E" label="~"/>
+          <key group="default" id="AB04" keysym="0x1002190" label="←"/>
+          <key group="default" id="AB05" keysym="0x1002192" label="→"/>
+          <key group="default" id="AB06" keysym="0x1002191" label="↑"/>
+          <key group="default" id="AB07" keysym="0x1002193" label="↓"/>
+          <key group="default" id="AB08" keysym="0x1002194" label="↔"/>
+          <key group="default" id="AB09" keysym="0x1002195" label="↕"/>
+          <key action="single-stroke" group="label" id="RTRN" keycode="36" label="Return"/>
+          <key button="true" group="label" id="hide" label="Exit" svg_id="LCTL"/>
+          <key button="true" group="label" id="move" label="Move" svg_id="LWIN"/>
+          <key button="true" group="label" id="layer2" label="Symbols" svg_id="LALT"/>
+          <key button="true" group="label" id="layer1" label="..."/>
+          <key group="label" id="SPCE" keycode="65"/>
+          <key action="single-stroke" group="label" id="HOME" keycode="110" label="Home" svg_id="LEFT"/>
+          <key action="single-stroke" group="label" id="END" keycode="115" label="End" svg_id="RGHT"/>
+          <key action="single-stroke" group="label" id="PGUP" keycode="112" label="Up" svg_id="UP"/>
+          <key action="single-stroke" group="label" id="PGDN" keycode="117" label="Down" svg_id="DOWN"/>
+        </panel>
+      </panel>
+    </box>
+  </box>
+</keyboard>

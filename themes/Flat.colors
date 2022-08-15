@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<color_scheme format="2.1" name="Flat">
+  <icon>
+    <color element="background" rgb="#464646"/>
+    <key_group>
+      <color element="fill" rgb="#2AA198"/>
+      <color element="stroke" rgb="#2AA198"/>
+      <color element="label" rgb="#F7F7F7"/>
+      icon0
+    </key_group>
+    <key_group>
+      <color element="fill" rgb="#6F6F6F"/>
+      <color element="stroke" rgb="#6F6F6F"/>
+      icon1
+    </key_group>
+    <key_group>
+      <color element="fill" rgb="#A6E22C"/>
+      <color element="stroke" rgb="#A6E22C"/>
+      icon2
+    </key_group>
+    <key_group>
+      <color element="fill" rgb="#66D9EF"/>
+      <color element="stroke" rgb="#66D9EF"/>
+      <color element="label" rgb="#F7F7F7"/>
+      icon3
+    </key_group>
+  </icon>
+
+  <layer>
+    <color element="background" rgb="#464646"/>
+  </layer>
+
+  <key_group>
+    <color active="true" element="fill" locked="true" pressed="true" rgb="#F92672"/>
+    <color active="true" element="fill" locked="false" pressed="true" rgb="#CECECE"/>
+    <color active="true" element="fill" locked="true" pressed="false" rgb="#F92672"/>
+    <color active="true" element="fill" locked="false" pressed="false" rgb="#CECECE"/>
+    <color active="false" element="fill" locked="true" pressed="true" rgb="#F92672"/>
+    <color active="false" element="fill" locked="false" pressed="true" rgb="#CECECE"/>
+    <color active="false" element="fill" locked="true" pressed="false" rgb="#F92672"/>
+    <color active="false" element="fill" locked="false" pressed="false" rgb="#6F6F6F"/>
+
+    <color element="stroke" rgb="#F7F7F7"/>
+
+    <color active="true" element="label" locked="true" pressed="true" rgb="#F7F7F7"/>
+    <color active="true" element="label" locked="false" pressed="true" rgb="#F7F7F7"/>
+    <color active="true" element="label" locked="true" pressed="false" rgb="#F7F7F7"/>
+    <color active="true" element="label" locked="false" pressed="false" rgb="#F7F7F7"/>
+    <color active="false" element="label" locked="true" pressed="true" rgb="#F7F7F7"/>
+    <color active="false" element="label" locked="false" pressed="true" rgb="#F7F7F7"/>
+    <color active="false" element="label" locked="true" pressed="false" rgb="#F7F7F7"/>
+    <color active="false" element="label" locked="false" pressed="false" rgb="#F7F7F7"/>
+
+    <color element="dwell-progress" rgb="#F92672"/>
+
+    <key_group>
+      <color element="fill" rgb="#A6E22C"/>
+      LCTL, LALT, LWIN, LFSH
+    </key_group>
+    <key_group>
+      <color element="fill" rgb="#66D9EF"/>
+      BKSP, TAB, RTRN, LEFT, RGHT, UP, DOWN, DELE, HOME, END, PGUP, PGDN, PRINT
+    </key_group>
+    <key_group>
+      <color element="fill" rgb="#AC80FF"/>
+      F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12
+    </key_group>
+    <key_group>
+      <color element="fill" rgb="#2AA198"/>
+      ESC, hide, move, settings
+    </key_group>
+    <key_group>
+      <color active="true" element="fill" locked="true" pressed="true" rgb="#F92672"/>
+      <color active="true" element="fill" locked="false" pressed="true" rgb="#6F6F6F"/>
+      <color active="true" element="fill" locked="true" pressed="false" rgb="#F92672"/>
+      <color active="true" element="fill" locked="false" pressed="false" rgb="#6F6F6F"/>
+      <color active="false" element="fill" locked="true" pressed="true" rgb="#F92672"/>
+      <color active="false" element="fill" locked="false" pressed="true" rgb="#464646"/>
+      <color active="false" element="fill" locked="true" pressed="false" rgb="#F92672"/>
+      <color active="false" element="fill" locked="false" pressed="false" rgb="#464646"/>
+      layer
+    </key_group>
+  </key_group>
+</color_scheme>
